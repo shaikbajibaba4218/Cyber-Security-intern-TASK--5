@@ -1,0 +1,56 @@
+Wireshark Packet Capture Report
+
+Objective: To capture network traffic using Wireshark, identify different protocols, and analyze the
+captured packets.
+
+Step 1 – Install Wireshark
+Download and install the latest version of Wireshark from the official website.
+Ensure installation includes WinPcap or Npcap (for Windows) to allow live packet capturing.
+
+
+Step 2 – Start Capturing on Active Network Interface
+Open Wireshark.
+From the interface list, select your active connection (e.g., Ethernet, Wi-Fi).
+Click the blue Start Capture button.
+
+
+Step 3 – Generate Network Traffic
+While capturing, perform actions to create traffic, such as:
+- Browsing a website.
+- Running ping to a server (e.g., ping google.com).
+- Checking email or loading an online video.
+
+
+Step 4 – Stop the Capture
+After about 1 minute of capturing, click the red Stop button in Wireshark.
+
+
+Step 5 – Filter Captured Packets by Protocol
+Use Wireshark’s display filter bar to isolate specific protocols, for example
+- http → Show HTTP web traffic.
+- dns → Show DNS queries and responses.
+- tcp → Show TCP handshakes and communication.
+
+
+Step 6 – Identify at Least 3 Different Protocols
+Review the Protocol column in the packet list.
+Common protocols found:
+- DNS – Domain name lookups.
+- TCP – Reliable transport protocol for most applications.
+- HTTP/HTTPS – Web traffic.
+- ICMP – Ping requests and replies.
+
+
+Step 7 – Export the Capture
+Go to File → Export Specified Packets.
+Save the capture as a .pcap file for future analysis or sharing.
+
+
+Step 8 – Summary of Findings
+Multiple protocols were observed in the capture:
+- DNS packets resolving domain names.
+- TCP packets establishing and transferring data.
+- HTTP packets transmitting website content.
+The captured data demonstrates:
+- How different protocols interact during typical network activity.
+- The value of filtering to focus on relevant traffic.
